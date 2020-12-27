@@ -18,8 +18,8 @@ def main():
     print(device)
     num_classes = 2
 
-    dataset = Data(r"/home/aer4kor/PycharmProjects/PP/pytorch_detection/PennFudanPed",get_transform(train=True))
-    dataset_test = Data('PennFudanPed', get_transform(train=False))
+    dataset = Data(<path>,get_transform(train=True))
+    dataset_test = Data(<path>, get_transform(train=False))
 
     #Splitting the dataset
 
